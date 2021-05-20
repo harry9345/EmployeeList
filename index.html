@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <p class="p">
+          یه پروژه بنویسین بنام لیست کارمندان یه باکس بنام لیست کارمندان باشه
+          دوتا اینپوت و یه دکمه Add هم باشه نام و نام خانوادگی رو از اینپوتا
+          بگیرین و با کلیک رو دکمه Add، کارمند رو به باکس اضافش کنه اگه اینپوتا
+          خالی بودن خطا بده خطا رو بمدت ۳ ثانیه میده فقط خطا رو میده بعد از ۳
+          ثانیه مخفیش میکنه
+        </p>
+      </section>
+      <section>
+        <label for="fName" id="fName"></label>
+        <input type="text" id="name" placeholder="Name" />
+        <label for="familyName" id="fmName"></label>
+        <input type="text" id="familyName" placeholder="Family Name" />
+        <button id="add" onclick="addClass()">Add</button>
+        <ul class="li" id="list"></ul>
+      </section>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

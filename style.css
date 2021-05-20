@@ -1,0 +1,47 @@
+body {
+  background-color: aliceblue;
+}
+
+section {
+  padding: 5px;
+}
+.p {
+  text-align: right;
+  font-size: large;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Fname {
+  width: 300px;
+  height: 35px;
+  font-size: large;
+  background-color: aqua;
+}
+.familyName {
+  width: 300px;
+  height: 35px;
+  font-size: large;
+  background-color: blue;
+}
+
+.add {
+  height: 36px;
+  width: 80px;
+  background-color: darkgoldenrod;
+}
+.li {
+  list-style: none;
+}
+input,
+label {
+  display: block;
+  padding: 4px;
+}
+button {
+  margin-top: 10px;
+}
+label {
+  color: red;
+  font-size: small;
+}
